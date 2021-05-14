@@ -1,0 +1,19 @@
+{
+  "name": "nodeexpressbootcamp",
+  "version": "1.0.0",
+  "description": "Bootcamp api with express",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Mainak Shil",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
